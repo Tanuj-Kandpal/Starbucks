@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "SoDo Sans SemiBold", "Helvetica Neue", "Helvetica", "Arial",
+    "sans-serif";
+}
+html {
+  font-size: 62.5%;
+}
+
+.logo {
+  width: 9rem;
+}
+.navbar {
+  display: flex;
+  margin: 2rem;
+  justify-content: space-between;
+}
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.text {
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  line-height: 2rem;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+}
+
+.text:hover {
+  cursor: pointer;
+  color: #006241;
+}
+
+.nav-right {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+  align-items: center;
+}
+.r-text {
+  font-size: 1.5rem;
+  font-weight: 300;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-in {
+  border: 1px solid black;
+  padding: 5px 20px;
+  border-radius: 90px;
+  justify-content: center;
+}
+
+.join-now {
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  padding: 5px 20px;
+  border-radius: 90px;
+  justify-content: center;
+}
+
+.container {
+  border: 0.001px solid black;
+}
+
+.combine {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.combine:hover {
+  cursor: pointer;
+  color: #006241;
+}
+.sign-in:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.07);
+}
+.join-now:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.logo:hover {
+  cursor: pointer;
+}
